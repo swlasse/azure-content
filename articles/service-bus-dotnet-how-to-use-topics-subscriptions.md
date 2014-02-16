@@ -266,9 +266,9 @@ receive it):
        Client.Send(message);
      }
 
-Service Bus topics support a maximum message size of 256 Kb (the header,
+Service Bus topics support a maximum message size of 256 KB (the header,
 which includes the standard and custom application properties, can have
-a maximum size of 64 Kb). There is no limit on the number of messages
+a maximum size of 64 KB). There is no limit on the number of messages
 held in a topic but there is a cap on the total size of the messages
 held by a topic. This queue size is defined at creation time, with an
 upper limit of 5 GB.
